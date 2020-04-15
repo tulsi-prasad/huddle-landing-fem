@@ -27,28 +27,28 @@ const Footer = () => {
                 </div>
             </div>
             <ul className="footer__lists">
-                <div className="footer__lists_column-1">
-                    <li className="footer__lists-item">
+                <li className="footer__lists_column-1">
+                    <div className="footer__lists-item">
                         <span>About Us</span>
-                    </li>
-                    <li className="footer__lists-item">
+                    </div>
+                    <div className="footer__lists-item">
                         <span>What We Do</span>
-                    </li>
-                    <li className="footer__lists-item">
+                    </div>
+                    <div className="footer__lists-item">
                         <span>FAQ</span>
-                    </li>
-                </div>
-                <div className="footer__lists_column-2">
-                    <li className="footer__lists-item">
+                    </div>
+                </li>
+                <li className="footer__lists_column-2">
+                    <div className="footer__lists-item">
                         <span>Career</span>
-                    </li>
-                    <li className="footer__lists-item">
+                    </div>
+                    <div className="footer__lists-item">
                         <span>Blog</span>
-                    </li>
-                    <li className="footer__lists-item">
+                    </div>
+                    <div className="footer__lists-item">
                         <span>Contact Us</span>
-                    </li>
-                </div>
+                    </div>
+                </li>
             </ul>
             <ul className="footer__icons">
                 <li className="footer__icons-item">
