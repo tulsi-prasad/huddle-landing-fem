@@ -14,8 +14,7 @@ const Footer = () => {
                     <img src={location} alt="icon-location" />
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nesciunt et nihil blanditiis. Fugit, dignissimos
-                        eligendi.
+                        Nesciunt et nihil blanditiis. Fugit.
                     </p>
                 </div>
                 <div className="footer__phone">
@@ -29,14 +28,26 @@ const Footer = () => {
             </div>
             <ul className="footer__lists">
                 <div className="footer__lists_column-1">
-                    <li className="footer__lists-item">About Us</li>
-                    <li className="footer__lists-item">What We Do</li>
-                    <li className="footer__lists-item">FAQ</li>
+                    <li className="footer__lists-item">
+                        <span>About Us</span>
+                    </li>
+                    <li className="footer__lists-item">
+                        <span>What We Do</span>
+                    </li>
+                    <li className="footer__lists-item">
+                        <span>FAQ</span>
+                    </li>
                 </div>
                 <div className="footer__lists_column-2">
-                    <li className="footer__lists-item">Career</li>
-                    <li className="footer__lists-item">Blog</li>
-                    <li className="footer__lists-item">Contact Us</li>
+                    <li className="footer__lists-item">
+                        <span>Career</span>
+                    </li>
+                    <li className="footer__lists-item">
+                        <span>Blog</span>
+                    </li>
+                    <li className="footer__lists-item">
+                        <span>Contact Us</span>
+                    </li>
                 </div>
             </ul>
             <ul className="footer__icons">

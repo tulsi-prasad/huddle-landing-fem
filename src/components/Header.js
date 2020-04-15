@@ -17,7 +17,7 @@ const Header = ({ title, body }) => {
             <div className="content">
                 <div className="title">{title}</div>
                 <div className="body">{body}</div>
-                <Button type="btn btn-pink">
+                <Button type="btn btn-pink btn-home">
                     Get Started For Free
                 </Button>
             </div>
